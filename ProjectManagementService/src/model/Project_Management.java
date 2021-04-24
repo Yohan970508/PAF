@@ -78,7 +78,7 @@ public class Project_Management {
 
 			}
 			//Table display
-			output = "<table border=\"1\"><tr><th>Project ID</th><th>Project Name</th><th>Project Type</th><th>Project Description</th></tr>";
+			output = "<table border=\"1\"><tr>" + "<th>Project ID</th>" + "<th>Project Name</th>" + "<th>Project Type</th>" + "<th>Project Description</th></tr>";
 
 			String query = "select * from project";
 
